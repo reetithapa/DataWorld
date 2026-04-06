@@ -17,11 +17,11 @@ def signin_page(driver):
     time.sleep(2)
 
     email = driver.find_element(By.ID, "email")
-    email.send_keys("reetithapa28@gmail.com")
+    email.send_keys("abc@gmail.com")
     time.sleep(2)
 
     password = driver.find_element(By.XPATH, "//input[@type='password']")
-    password.send_keys("Reeti@Thapa")
+    password.send_keys("abc")
 
     signin = driver.find_element(By.XPATH, "//button[normalize-space()='Sign in']")
     signin.click()
